@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms</title>
+    <link rel="stylesheet" href="symptoms.css">
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="./index.html">Home</a>
+          <a href="./evolution.html">Evolution of Coronavirus</a>
+          <a href="./in-tracker.html" target="_blank">Covid-19 LiveTracker in India</a>
+          <a href="./ae-tracker.html" target="_blank">Covid-19 LiveTracker in UAE</a>
+          <a href="#">News</a>
+          <a href="./symptoms.html">Symptoms</a>
+          <a href="./precautions.html">Precautions</a>
+          <a href="./contact.html">Contact Us</a>
+        </div>
+      </div>
+      <h2></h2>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <header></header>
+    <br><br>
+    <div class="Symptoms">
+        <h1 id="h1-1">Most Common Symptoms..</h1>
+        <div class="common">
+            <div class="li">
+                <li class="sym">fever</li>
+                <li class="sym">dry cough</li>
+                <li class="sym">tiredness</li>
+            </div>
+        <img src="./assest/all-together.png" alt="" id="all-together">
+        </div>
+        <br><br>
+        <div class="less">
+            <h1 id="h1-2">Less Common Symptoms</h1>
+            <div class="common">
+                <div id="li">
+                    <li class="sym sym2">aches and pains</li>
+                    <li class="sym sym2">sore throat</li>
+                    <li class="sym sym2">diarrhoea</li>
+                    <li class="sym sym2">conjunctivitis</li>
+                    <li class="sym sym2">headache</li>
+                    <li class="sym sym2">loss of taste or smell</li>
+                    <li class="sym sym2">a rash on skin, or discolouration of fingers or toes</li>
+                </div>
+                <img src="./assest/all-together-2.png" alt="" id="all-together2">
+            </div>
+        </div><br><br>
+        <div class="serious"><br>
+            <h1 id="h1-3">Serious Symptoms</h1>
+            <div class="common">
+                <div class="li8">
+                    <li class="sym">difficulty breathing or shortness of breath</li>
+                    <li class="sym">chest pain or pressure</li>
+                    <li class="sym">loss of speech or movement</li>
+                </div>
+                <img src="./assest/all-together-3.png" alt="" id="all-together3">
+            </div>
+        </div>
+    </div>
+    <div class="warning">
+        <img src="./assest/warning.png" alt="" id="warning">
+        <p id="p5">Seek immediate medical attention if you  <br> have serious symptoms.
+            Always call before visiting <br> your doctor or health facility.</p>
+    </div>
+
+    <script>
+        function openNav() {
+document.getElementById("myNav").style.height = "100%";
+}
+function closeNav() {
+document.getElementById("myNav").style.height = "0%";
+}
+    </script>
+</body>
+</html>
